@@ -1,0 +1,5 @@
+/target/
+**/*.rs.bk
+
+# This is a library. Ignore Cargo.lock
+Cargo.lock

@@ -1,0 +1,21 @@
+[package]
+name = "iron-archivist"
+description = "Static file handler for Iron"
+version = "0.1.0-alpha.1"
+authors = ["MislankaNova <MislankaNova@hotmail.com>"]
+
+[lib]
+name = "iron_archivist"
+
+[dependencies]
+serde = "1.0"
+serde_derive = "1.0"
+toml = "0.4"
+url = "1.6"
+iron = "0.6"
+urlencoded = "0.6"
+mount = "0.4"
+mime_guess = "1.8"
+chrono = { version = "0.4", features = ["serde"] }
+pulldown-cmark = { version = "0.1", default-features = false }
+
