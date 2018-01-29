@@ -3,6 +3,9 @@ name = "iron-archivist"
 description = "Static file handler for Iron"
 version = "0.1.0-alpha.1"
 authors = ["MislankaNova <MislankaNova@hotmail.com>"]
+license = "MIT"
+repository = "https://github.com/MislankaNova/iron-archivist"
+readme = "readme.md"
 
 [lib]
 name = "iron_archivist"
